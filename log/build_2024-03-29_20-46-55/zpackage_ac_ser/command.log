@@ -1,0 +1,4 @@
+Invoking command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage_ac_ser -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage_ac_ser
+Invoked command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage_ac_ser -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage_ac_ser
+Invoking command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6
+Invoked command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6

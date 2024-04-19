@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.002030] (-) JobUnselected: {'identifier': 'zpackage'}
+[0.002600] (zpackage_ac_ser) JobQueued: {'identifier': 'zpackage_ac_ser', 'dependencies': OrderedDict()}
+[0.004361] (zpackage_ac_ser) JobStarted: {'identifier': 'zpackage_ac_ser'}
+[0.063791] (zpackage_ac_ser) JobProgress: {'identifier': 'zpackage_ac_ser', 'progress': 'cmake'}
+[0.069549] (zpackage_ac_ser) JobProgress: {'identifier': 'zpackage_ac_ser', 'progress': 'build'}
+[0.072155] (zpackage_ac_ser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zechariah/ros2_ws/build/zpackage_ac_ser', '--', '-j6', '-l6'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage_ac_ser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1394'), ('SYSTEMD_EXEC_PID', '1567'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2715'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:36647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1534,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1534'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'b9aa3640a33c494ca1a4e3249d37cbcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.581HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage_ac_ser'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099782] (-) TimerEvent: {}
+[0.201066] (-) TimerEvent: {}
+[0.301995] (-) TimerEvent: {}
+[0.320007] (zpackage_ac_ser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Fibonacci_server\x1b[0m\n'}
+[0.321088] (zpackage_ac_ser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_client\x1b[0m\n'}
+[0.402373] (-) TimerEvent: {}
+[0.426286] (zpackage_ac_ser) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o\x1b[0m\n'}
+[0.429588] (zpackage_ac_ser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o\x1b[0m\n'}
+[0.502560] (-) TimerEvent: {}
+[0.603249] (-) TimerEvent: {}
+[0.704963] (-) TimerEvent: {}
+[0.805922] (-) TimerEvent: {}
+[0.906631] (-) TimerEvent: {}
+[1.007636] (-) TimerEvent: {}
+[1.108561] (-) TimerEvent: {}
+[1.209520] (-) TimerEvent: {}
+[1.310354] (-) TimerEvent: {}
+[1.411079] (-) TimerEvent: {}
+[1.511949] (-) TimerEvent: {}
+[1.612940] (-) TimerEvent: {}
+[1.715144] (-) TimerEvent: {}
+[1.815916] (-) TimerEvent: {}
+[1.917013] (-) TimerEvent: {}
+[2.017697] (-) TimerEvent: {}
+[2.118686] (-) TimerEvent: {}
+[2.219621] (-) TimerEvent: {}
+[2.320477] (-) TimerEvent: {}
+[2.421437] (-) TimerEvent: {}
+[2.523975] (-) TimerEvent: {}
+[2.624986] (-) TimerEvent: {}
+[2.726130] (-) TimerEvent: {}
+[2.827056] (-) TimerEvent: {}
+[2.929004] (-) TimerEvent: {}
+[3.029889] (-) TimerEvent: {}
+[3.130701] (-) TimerEvent: {}
+[3.231668] (-) TimerEvent: {}
+[3.333011] (-) TimerEvent: {}
+[3.437359] (-) TimerEvent: {}
+[3.540348] (-) TimerEvent: {}
+[3.641462] (-) TimerEvent: {}
+[3.742254] (-) TimerEvent: {}
+[3.843074] (-) TimerEvent: {}
+[3.945144] (-) TimerEvent: {}
+[4.046830] (-) TimerEvent: {}
+[4.149120] (-) TimerEvent: {}
+[4.252084] (-) TimerEvent: {}
+[4.353068] (-) TimerEvent: {}
+[4.456022] (-) TimerEvent: {}
+[4.557080] (-) TimerEvent: {}
+[4.657851] (-) TimerEvent: {}
+[4.758676] (-) TimerEvent: {}
+[4.860402] (-) TimerEvent: {}
+[4.961028] (-) TimerEvent: {}
+[5.061692] (-) TimerEvent: {}
+[5.162401] (-) TimerEvent: {}
+[5.263184] (-) TimerEvent: {}
+[5.364178] (-) TimerEvent: {}
+[5.469046] (-) TimerEvent: {}
+[5.570005] (-) TimerEvent: {}
+[5.670878] (-) TimerEvent: {}
+[5.772158] (-) TimerEvent: {}
+[5.873339] (-) TimerEvent: {}
+[5.974224] (-) TimerEvent: {}
+[6.075334] (-) TimerEvent: {}
+[6.176298] (-) TimerEvent: {}
+[6.277325] (-) TimerEvent: {}
+[6.378168] (-) TimerEvent: {}
+[6.479046] (-) TimerEvent: {}
+[6.580024] (-) TimerEvent: {}
+[6.685000] (-) TimerEvent: {}
+[6.786498] (-) TimerEvent: {}
+[6.887240] (-) TimerEvent: {}
+[6.987932] (-) TimerEvent: {}
+[7.089039] (-) TimerEvent: {}
+[7.190566] (-) TimerEvent: {}
+[7.291403] (-) TimerEvent: {}
+[7.393230] (-) TimerEvent: {}
+[7.495660] (-) TimerEvent: {}
+[7.596492] (-) TimerEvent: {}
+[7.697583] (-) TimerEvent: {}
+[7.800399] (-) TimerEvent: {}
+[7.901591] (-) TimerEvent: {}
+[8.005004] (-) TimerEvent: {}
+[8.105932] (-) TimerEvent: {}
+[8.206901] (-) TimerEvent: {}
+[8.309753] (-) TimerEvent: {}
+[8.411229] (-) TimerEvent: {}
+[8.513275] (-) TimerEvent: {}
+[8.614480] (-) TimerEvent: {}
+[8.716651] (-) TimerEvent: {}
+[8.817644] (-) TimerEvent: {}
+[8.918403] (-) TimerEvent: {}
+[9.021357] (-) TimerEvent: {}
+[9.123860] (-) TimerEvent: {}
+[9.224649] (-) TimerEvent: {}
+[9.326039] (-) TimerEvent: {}
+[9.427324] (-) TimerEvent: {}
+[9.529009] (-) TimerEvent: {}
+[9.632476] (-) TimerEvent: {}
+[9.733246] (-) TimerEvent: {}
+[9.837003] (-) TimerEvent: {}
+[9.941071] (-) TimerEvent: {}
+[10.045028] (-) TimerEvent: {}
+[10.149110] (-) TimerEvent: {}
+[10.182493] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FibonacciClient::feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<action_tutorials_interfaces::action::Fibonacci> >, std::shared_ptr<const action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.183413] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:83:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = const struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksequence\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.183828] (zpackage_ac_ser) StderrLine: {'line': b'   83 |         for(auto number : feedback->\x1b[01;31m\x1b[Ksequence\x1b[m\x1b[K)\n'}
+[10.184151] (zpackage_ac_ser) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.199939] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.200487] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:125:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_some()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200827] (zpackage_ac_ser) StderrLine: {'line': b'  125 |         \x1b[01;31m\x1b[Krclcpp::spin_some()\x1b[m\x1b[K;\n'}
+[10.201580] (zpackage_ac_ser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[10.202224] (zpackage_ac_ser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.202708] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:10\x1b[m\x1b[K:\n'}
+[10.203072] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203424] (zpackage_ac_ser) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[10.203744] (zpackage_ac_ser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.204081] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[10.204390] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204687] (zpackage_ac_ser) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[10.205196] (zpackage_ac_ser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.205518] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[10.249399] (-) TimerEvent: {}
+[10.345358] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FibonacciServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_tutorials_interfaces::action::Fibonacci> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.346176] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:70:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksequence\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.346577] (zpackage_ac_ser) StderrLine: {'line': b'   70 |     auto &sequence = feedback->\x1b[01;31m\x1b[Ksequence\x1b[m\x1b[K;\n'}
+[10.346892] (zpackage_ac_ser) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.350254] (-) TimerEvent: {}
+[10.451104] (-) TimerEvent: {}
+[10.552220] (-) TimerEvent: {}
+[10.653452] (-) TimerEvent: {}
+[10.754411] (-) TimerEvent: {}
+[10.857001] (-) TimerEvent: {}
+[10.961228] (-) TimerEvent: {}
+[11.065191] (-) TimerEvent: {}
+[11.169657] (-) TimerEvent: {}
+[11.270577] (-) TimerEvent: {}
+[11.372235] (-) TimerEvent: {}
+[11.473596] (-) TimerEvent: {}
+[11.574824] (-) TimerEvent: {}
+[11.675581] (-) TimerEvent: {}
+[11.777148] (-) TimerEvent: {}
+[11.878054] (-) TimerEvent: {}
+[11.978777] (-) TimerEvent: {}
+[12.079468] (-) TimerEvent: {}
+[12.180396] (-) TimerEvent: {}
+[12.281195] (-) TimerEvent: {}
+[12.381946] (-) TimerEvent: {}
+[12.482644] (-) TimerEvent: {}
+[12.583313] (-) TimerEvent: {}
+[12.684235] (-) TimerEvent: {}
+[12.786296] (-) TimerEvent: {}
+[12.887323] (-) TimerEvent: {}
+[12.988460] (-) TimerEvent: {}
+[13.089277] (-) TimerEvent: {}
+[13.190268] (-) TimerEvent: {}
+[13.291320] (-) TimerEvent: {}
+[13.392402] (-) TimerEvent: {}
+[13.493866] (-) TimerEvent: {}
+[13.585097] (zpackage_ac_ser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fibonacci_client.dir/build.make:76: CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1\n'}
+[13.585666] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/fibonacci_client.dir/all] Error 2\n'}
+[13.585949] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[13.595017] (-) TimerEvent: {}
+[13.695926] (-) TimerEvent: {}
+[13.796744] (-) TimerEvent: {}
+[13.897965] (-) TimerEvent: {}
+[13.999091] (zpackage_ac_ser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Fibonacci_server.dir/build.make:76: CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o] Error 1\n'}
+[13.999866] (-) TimerEvent: {}
+[14.000503] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Fibonacci_server.dir/all] Error 2\n'}
+[14.001043] (zpackage_ac_ser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.007129] (zpackage_ac_ser) CommandEnded: {'returncode': 2}
+[14.100115] (-) TimerEvent: {}
+[14.201845] (-) TimerEvent: {}
+[14.303561] (-) TimerEvent: {}
+[14.306795] (zpackage_ac_ser) JobEnded: {'identifier': 'zpackage_ac_ser', 'rc': 2}
+[14.319449] (-) EventReactorShutdown: {}

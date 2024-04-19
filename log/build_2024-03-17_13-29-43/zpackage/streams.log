@@ -1,0 +1,47 @@
+[0.063s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage
+[0.558s] -- The C compiler identification is GNU 11.4.0
+[0.993s] -- The CXX compiler identification is GNU 11.4.0
+[1.257s] -- Detecting C compiler ABI info
+[1.617s] -- Detecting C compiler ABI info - done
+[1.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.638s] -- Detecting C compile features
+[1.642s] -- Detecting C compile features - done
+[1.658s] -- Detecting CXX compiler ABI info
+[1.999s] -- Detecting CXX compiler ABI info - done
+[2.021s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.022s] -- Detecting CXX compile features
+[2.023s] -- Detecting CXX compile features - done
+[2.057s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.707s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.224s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.609s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.609s] -- Configured cppcheck include dirs: 
+[3.610s] -- Configured cppcheck exclude dirs and/or files: 
+[3.616s] -- Added test 'lint_cmake' to check CMake code style
+[3.628s] -- Added test 'uncrustify' to check C / C++ code style
+[3.629s] -- Configured uncrustify additional arguments: 
+[3.633s] -- Added test 'xmllint' to check XML markup files
+[3.646s] -- Configuring done
+[3.664s] -- Generating done
+[3.672s] -- Build files have been written to: /home/zechariah/ros2_ws/build/zpackage
+[3.693s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage
+[3.719s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+[4.065s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+[4.421s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage
+[4.465s] -- Install configuration: ""
+[4.466s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/ament_index/resource_index/package_run_dependencies/zpackage
+[4.468s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/ament_index/resource_index/parent_prefix_path/zpackage
+[4.470s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/environment/ament_prefix_path.sh
+[4.471s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/environment/ament_prefix_path.dsv
+[4.472s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/environment/path.sh
+[4.473s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/environment/path.dsv
+[4.474s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/local_setup.bash
+[4.477s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/local_setup.sh
+[4.479s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/local_setup.zsh
+[4.480s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/local_setup.dsv
+[4.481s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/package.dsv
+[4.483s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/ament_index/resource_index/packages/zpackage
+[4.484s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/cmake/zpackageConfig.cmake
+[4.485s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/cmake/zpackageConfig-version.cmake
+[4.486s] -- Installing: /home/zechariah/ros2_ws/install/zpackage/share/zpackage/package.xml
+[4.499s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage

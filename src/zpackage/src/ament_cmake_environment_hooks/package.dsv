@@ -1,0 +1,4 @@
+source;share/zpackage/local_setup.bash
+source;share/zpackage/local_setup.dsv
+source;share/zpackage/local_setup.sh
+source;share/zpackage/local_setup.zsh

@@ -1,0 +1,5 @@
+source;share/zpackage_ac_ser/local_setup.bash
+source;share/zpackage_ac_ser/local_setup.dsv
+source;share/zpackage_ac_ser/local_setup.ps1
+source;share/zpackage_ac_ser/local_setup.sh
+source;share/zpackage_ac_ser/local_setup.zsh

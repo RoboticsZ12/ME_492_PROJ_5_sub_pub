@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.001919] (-) JobUnselected: {'identifier': 'zpackage'}
+[0.002451] (zpackage_ac_ser) JobQueued: {'identifier': 'zpackage_ac_ser', 'dependencies': OrderedDict()}
+[0.003339] (zpackage_ac_ser) JobStarted: {'identifier': 'zpackage_ac_ser'}
+[0.038133] (zpackage_ac_ser) JobProgress: {'identifier': 'zpackage_ac_ser', 'progress': 'cmake'}
+[0.042579] (zpackage_ac_ser) JobProgress: {'identifier': 'zpackage_ac_ser', 'progress': 'build'}
+[0.044898] (zpackage_ac_ser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zechariah/ros2_ws/build/zpackage_ac_ser', '--', '-j6', '-l6'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage_ac_ser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1394'), ('SYSTEMD_EXEC_PID', '1567'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2715'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:36647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1534,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1534'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'b9aa3640a33c494ca1a4e3249d37cbcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.581HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage_ac_ser'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096070] (-) TimerEvent: {}
+[0.196850] (-) TimerEvent: {}
+[0.211499] (zpackage_ac_ser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_client\x1b[0m\n'}
+[0.211988] (zpackage_ac_ser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Fibonacci_server\x1b[0m\n'}
+[0.292194] (zpackage_ac_ser) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o\x1b[0m\n'}
+[0.295541] (zpackage_ac_ser) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o\x1b[0m\n'}
+[0.297769] (-) TimerEvent: {}
+[0.399909] (-) TimerEvent: {}
+[0.500786] (-) TimerEvent: {}
+[0.604444] (-) TimerEvent: {}
+[0.705250] (-) TimerEvent: {}
+[0.806158] (-) TimerEvent: {}
+[0.908850] (-) TimerEvent: {}
+[1.009967] (-) TimerEvent: {}
+[1.110841] (-) TimerEvent: {}
+[1.211881] (-) TimerEvent: {}
+[1.314101] (-) TimerEvent: {}
+[1.415061] (-) TimerEvent: {}
+[1.515891] (-) TimerEvent: {}
+[1.616746] (-) TimerEvent: {}
+[1.717680] (-) TimerEvent: {}
+[1.818592] (-) TimerEvent: {}
+[1.919767] (-) TimerEvent: {}
+[2.021075] (-) TimerEvent: {}
+[2.122323] (-) TimerEvent: {}
+[2.223541] (-) TimerEvent: {}
+[2.324468] (-) TimerEvent: {}
+[2.425651] (-) TimerEvent: {}
+[2.526807] (-) TimerEvent: {}
+[2.629572] (-) TimerEvent: {}
+[2.731493] (-) TimerEvent: {}
+[2.833535] (-) TimerEvent: {}
+[2.934315] (-) TimerEvent: {}
+[3.035208] (-) TimerEvent: {}
+[3.136026] (-) TimerEvent: {}
+[3.236897] (-) TimerEvent: {}
+[3.339691] (-) TimerEvent: {}
+[3.441619] (-) TimerEvent: {}
+[3.542483] (-) TimerEvent: {}
+[3.644522] (-) TimerEvent: {}
+[3.745302] (-) TimerEvent: {}
+[3.846667] (-) TimerEvent: {}
+[3.948793] (-) TimerEvent: {}
+[4.051940] (-) TimerEvent: {}
+[4.152744] (-) TimerEvent: {}
+[4.253530] (-) TimerEvent: {}
+[4.354299] (-) TimerEvent: {}
+[4.455185] (-) TimerEvent: {}
+[4.555956] (-) TimerEvent: {}
+[4.657058] (-) TimerEvent: {}
+[4.763931] (-) TimerEvent: {}
+[4.865586] (-) TimerEvent: {}
+[4.969824] (-) TimerEvent: {}
+[5.070608] (-) TimerEvent: {}
+[5.171454] (-) TimerEvent: {}
+[5.272436] (-) TimerEvent: {}
+[5.373548] (-) TimerEvent: {}
+[5.474440] (-) TimerEvent: {}
+[5.575418] (-) TimerEvent: {}
+[5.676419] (-) TimerEvent: {}
+[5.777700] (-) TimerEvent: {}
+[5.879539] (-) TimerEvent: {}
+[5.980879] (-) TimerEvent: {}
+[6.082408] (-) TimerEvent: {}
+[6.183870] (-) TimerEvent: {}
+[6.284865] (-) TimerEvent: {}
+[6.385621] (-) TimerEvent: {}
+[6.486449] (-) TimerEvent: {}
+[6.587350] (-) TimerEvent: {}
+[6.688265] (-) TimerEvent: {}
+[6.789175] (-) TimerEvent: {}
+[6.890129] (-) TimerEvent: {}
+[6.991728] (-) TimerEvent: {}
+[7.094358] (-) TimerEvent: {}
+[7.195406] (-) TimerEvent: {}
+[7.296372] (-) TimerEvent: {}
+[7.397353] (-) TimerEvent: {}
+[7.498440] (-) TimerEvent: {}
+[7.599453] (-) TimerEvent: {}
+[7.700379] (-) TimerEvent: {}
+[7.801575] (-) TimerEvent: {}
+[7.902518] (-) TimerEvent: {}
+[8.003358] (-) TimerEvent: {}
+[8.104438] (-) TimerEvent: {}
+[8.205180] (-) TimerEvent: {}
+[8.307425] (-) TimerEvent: {}
+[8.408245] (-) TimerEvent: {}
+[8.509905] (-) TimerEvent: {}
+[8.612686] (-) TimerEvent: {}
+[8.713632] (-) TimerEvent: {}
+[8.814585] (-) TimerEvent: {}
+[8.915307] (-) TimerEvent: {}
+[9.016035] (-) TimerEvent: {}
+[9.116854] (-) TimerEvent: {}
+[9.217649] (-) TimerEvent: {}
+[9.318477] (-) TimerEvent: {}
+[9.419297] (-) TimerEvent: {}
+[9.520068] (-) TimerEvent: {}
+[9.622520] (-) TimerEvent: {}
+[9.644428] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FibonacciServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_tutorials_interfaces::action::Fibonacci> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.645233] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:54:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.646505] (zpackage_ac_ser) StderrLine: {'line': b'   54 |     std::thread{std::bind(&FibonacciServer::execute, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K), goal_handle}.detach();\n'}
+[9.646797] (zpackage_ac_ser) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.647049] (zpackage_ac_ser) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[9.647276] (zpackage_ac_ser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.647500] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.647722] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[9.647946] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.648174] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.648401] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.648625] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:2\x1b[m\x1b[K:\n'}
+[9.648847] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[9.649104] (zpackage_ac_ser) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[9.649332] (zpackage_ac_ser) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.649815] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:54:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.650093] (zpackage_ac_ser) StderrLine: {'line': b'   54 |     std::thread{std::bind(&FibonacciServer::execute, this, _1), goal_handle\x1b[01;31m\x1b[K}\x1b[m\x1b[K.detach();\n'}
+[9.650324] (zpackage_ac_ser) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.650552] (zpackage_ac_ser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[9.650779] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[9.651011] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.651232] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:2\x1b[m\x1b[K:\n'}
+[9.651454] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.651679] (zpackage_ac_ser) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(_Callable&& __f, _Args&&... __args)\n'}
+[9.652025] (zpackage_ac_ser) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.652263] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.652489] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(std::thread&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.652810] (zpackage_ac_ser) StderrLine: {'line': b'  157 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(thread&& __t) noexcept\n'}
+[9.653079] (zpackage_ac_ser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.653313] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[9.653619] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.653844] (zpackage_ac_ser) StderrLine: {'line': b'  121 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K() noexcept = default;\n'}
+[9.654062] (zpackage_ac_ser) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.654280] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[9.702170] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.703346] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:125:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_some()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.703629] (zpackage_ac_ser) StderrLine: {'line': b'  125 |         \x1b[01;31m\x1b[Krclcpp::spin_some()\x1b[m\x1b[K;\n'}
+[9.703871] (zpackage_ac_ser) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.704097] (zpackage_ac_ser) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.704519] (zpackage_ac_ser) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:10\x1b[m\x1b[K:\n'}
+[9.704814] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.705080] (zpackage_ac_ser) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[9.705322] (zpackage_ac_ser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.705750] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.706017] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.706252] (zpackage_ac_ser) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[9.706475] (zpackage_ac_ser) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.706698] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.722754] (-) TimerEvent: {}
+[9.823744] (-) TimerEvent: {}
+[9.925256] (-) TimerEvent: {}
+[10.026608] (-) TimerEvent: {}
+[10.127760] (-) TimerEvent: {}
+[10.228665] (-) TimerEvent: {}
+[10.329647] (-) TimerEvent: {}
+[10.430463] (-) TimerEvent: {}
+[10.531341] (-) TimerEvent: {}
+[10.632281] (-) TimerEvent: {}
+[10.733222] (-) TimerEvent: {}
+[10.834568] (-) TimerEvent: {}
+[10.935481] (-) TimerEvent: {}
+[11.036357] (-) TimerEvent: {}
+[11.137155] (-) TimerEvent: {}
+[11.238015] (-) TimerEvent: {}
+[11.339495] (-) TimerEvent: {}
+[11.440274] (-) TimerEvent: {}
+[11.541569] (-) TimerEvent: {}
+[11.642344] (-) TimerEvent: {}
+[11.743105] (-) TimerEvent: {}
+[11.843873] (-) TimerEvent: {}
+[11.912613] (zpackage_ac_ser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Fibonacci_server.dir/build.make:76: CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o] Error 1\n'}
+[11.913170] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Fibonacci_server.dir/all] Error 2\n'}
+[11.913543] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.944177] (-) TimerEvent: {}
+[12.045008] (-) TimerEvent: {}
+[12.146299] (-) TimerEvent: {}
+[12.172194] (zpackage_ac_ser) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fibonacci_client.dir/build.make:76: CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1\n'}
+[12.175354] (zpackage_ac_ser) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/fibonacci_client.dir/all] Error 2\n'}
+[12.176446] (zpackage_ac_ser) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.193249] (zpackage_ac_ser) CommandEnded: {'returncode': 2}
+[12.246899] (-) TimerEvent: {}
+[12.348589] (-) TimerEvent: {}
+[12.449782] (-) TimerEvent: {}
+[12.528769] (zpackage_ac_ser) JobEnded: {'identifier': 'zpackage_ac_ser', 'rc': 2}
+[12.543058] (-) EventReactorShutdown: {}

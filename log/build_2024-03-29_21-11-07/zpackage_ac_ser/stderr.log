@@ -1,0 +1,28 @@
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:[m[K In member function ‘[01m[Kvoid FibonacciClient::feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<action_tutorials_interfaces::action::Fibonacci> >, std::shared_ptr<const action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:83:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   83 |         for(auto number : feedback->[01;31m[Ksequence[m[K)
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:125:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_some()[m[K’
+  125 |         [01;31m[Krclcpp::spin_some()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   35 | [01;36m[Kspin_some[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)[m[K’
+   39 | [01;36m[Kspin_some[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:[m[K In member function ‘[01m[Kvoid FibonacciServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_tutorials_interfaces::action::Fibonacci> >)[m[K’:
+[01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:70:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct action_tutorials_interfaces::action::Fibonacci_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+   70 |     auto &sequence = feedback->[01;31m[Ksequence[m[K;
+      |                                [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/fibonacci_client.dir/build.make:76: CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/fibonacci_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/Fibonacci_server.dir/build.make:76: CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Fibonacci_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

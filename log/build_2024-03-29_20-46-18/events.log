@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.002880] (-) JobUnselected: {'identifier': 'zpackage'}
+[0.003114] (zpackage_ac_ser) JobQueued: {'identifier': 'zpackage_ac_ser', 'dependencies': OrderedDict()}
+[0.003228] (zpackage_ac_ser) JobStarted: {'identifier': 'zpackage_ac_ser'}
+[0.048738] (zpackage_ac_ser) JobProgress: {'identifier': 'zpackage_ac_ser', 'progress': 'cmake'}
+[0.054189] (zpackage_ac_ser) Command: {'cmd': ['/usr/bin/cmake', '/home/zechariah/ros2_ws/src/zpackage_ac_ser', '-DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage_ac_ser'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage_ac_ser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1394'), ('SYSTEMD_EXEC_PID', '1567'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2715'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:36647'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1534,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1534'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'b9aa3640a33c494ca1a4e3249d37cbcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.581HL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage_ac_ser'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098800] (-) TimerEvent: {}
+[0.109601] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199166] (-) TimerEvent: {}
+[0.300119] (-) TimerEvent: {}
+[0.401686] (-) TimerEvent: {}
+[0.503218] (-) TimerEvent: {}
+[0.604412] (-) TimerEvent: {}
+[0.651003] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[0.704731] (-) TimerEvent: {}
+[0.718975] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.726458] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.741342] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.776103] (zpackage_ac_ser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.805060] (-) TimerEvent: {}
+[0.816340] (zpackage_ac_ser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.905385] (-) TimerEvent: {}
+[1.006302] (-) TimerEvent: {}
+[1.107676] (-) TimerEvent: {}
+[1.208605] (-) TimerEvent: {}
+[1.309548] (-) TimerEvent: {}
+[1.369065] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.409786] (-) TimerEvent: {}
+[1.510430] (-) TimerEvent: {}
+[1.574007] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.579914] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.610842] (-) TimerEvent: {}
+[1.712080] (-) TimerEvent: {}
+[1.812951] (-) TimerEvent: {}
+[1.913788] (-) TimerEvent: {}
+[2.014734] (-) TimerEvent: {}
+[2.062402] (zpackage_ac_ser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.115307] (-) TimerEvent: {}
+[2.216569] (-) TimerEvent: {}
+[2.317506] (-) TimerEvent: {}
+[2.418414] (-) TimerEvent: {}
+[2.519401] (-) TimerEvent: {}
+[2.620509] (-) TimerEvent: {}
+[2.631608] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.720883] (-) TimerEvent: {}
+[2.741332] (zpackage_ac_ser) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.821276] (-) TimerEvent: {}
+[2.922544] (-) TimerEvent: {}
+[2.956586] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:58 (install):\n'}
+[2.957319] (zpackage_ac_ser) StderrLine: {'line': b'  install TARGETS given target "fibonacci_server" which does not exist.\n'}
+[2.958017] (zpackage_ac_ser) StderrLine: {'line': b'\n'}
+[2.958252] (zpackage_ac_ser) StderrLine: {'line': b'\x1b[0m\n'}
+[3.022776] (-) TimerEvent: {}
+[3.123693] (-) TimerEvent: {}
+[3.216643] (zpackage_ac_ser) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.217631] (zpackage_ac_ser) StdoutLine: {'line': b'See also "/home/zechariah/ros2_ws/build/zpackage_ac_ser/CMakeFiles/CMakeOutput.log".\n'}
+[3.224136] (-) TimerEvent: {}
+[3.241132] (zpackage_ac_ser) CommandEnded: {'returncode': 1}
+[3.320705] (zpackage_ac_ser) JobEnded: {'identifier': 'zpackage_ac_ser', 'rc': 1}
+[3.324365] (-) TimerEvent: {}
+[3.332569] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage
+Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage
+Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage
+Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage

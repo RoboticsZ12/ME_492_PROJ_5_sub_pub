@@ -1,0 +1,21 @@
+[0.059s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.325s] [ 50%] Built target subscriber_node
+[0.355s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[16.344s] [100%] [32m[1mLinking CXX executable publisher_node[0m
+[17.089s] [100%] Built target publisher_node
+[17.142s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+[17.421s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage
+[17.454s] -- Install configuration: ""
+[17.459s] -- Execute custom install script
+[17.460s] -- Symlinking: /home/zechariah/ros2_ws/install/zpackage/lib/zpackage/publisher_node
+[17.506s] -- Symlinking: /home/zechariah/ros2_ws/install/zpackage/lib/zpackage/subscriber_node
+[17.556s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[17.557s]   ament_cmake_symlink_install_directory() can't find
+[17.557s]   '/home/zechariah/ros2_ws/src/zpackage/launch'
+[17.558s] Call Stack (most recent call first):
+[17.558s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[17.558s]   cmake_install.cmake:46 (include)
+[17.559s] 
+[17.560s] [0m
+[17.564s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zechariah/ros2_ws/build/zpackage

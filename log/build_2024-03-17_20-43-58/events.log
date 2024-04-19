@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.001841] (zpackage) JobQueued: {'identifier': 'zpackage', 'dependencies': OrderedDict()}
+[0.002110] (zpackage) JobStarted: {'identifier': 'zpackage'}
+[0.042029] (zpackage) JobProgress: {'identifier': 'zpackage', 'progress': 'cmake'}
+[0.046302] (zpackage) JobProgress: {'identifier': 'zpackage', 'progress': 'build'}
+[0.049033] (zpackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zechariah/ros2_ws/build/zpackage', '--', '-j6', '-l6'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1389'), ('SYSTEMD_EXEC_PID', '1575'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:35388'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1527,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1527'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'e149afcd0ed94503b7e442a87a94e5dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WG4YK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097758] (-) TimerEvent: {}
+[0.198736] (-) TimerEvent: {}
+[0.278417] (zpackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_node\x1b[0m\n'}
+[0.299921] (-) TimerEvent: {}
+[0.304196] (zpackage) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_node\x1b[0m\n'}
+[0.396113] (zpackage) StdoutLine: {'line': b'[ 50%] Built target subscriber_node\n'}
+[0.400074] (-) TimerEvent: {}
+[0.413834] (zpackage) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.500325] (-) TimerEvent: {}
+[0.601493] (-) TimerEvent: {}
+[0.702412] (-) TimerEvent: {}
+[0.803362] (-) TimerEvent: {}
+[0.904591] (-) TimerEvent: {}
+[1.005514] (-) TimerEvent: {}
+[1.106643] (-) TimerEvent: {}
+[1.207413] (-) TimerEvent: {}
+[1.308340] (-) TimerEvent: {}
+[1.409077] (-) TimerEvent: {}
+[1.510122] (-) TimerEvent: {}
+[1.611083] (-) TimerEvent: {}
+[1.712613] (-) TimerEvent: {}
+[1.813735] (-) TimerEvent: {}
+[1.914631] (-) TimerEvent: {}
+[2.016144] (-) TimerEvent: {}
+[2.117496] (-) TimerEvent: {}
+[2.218743] (-) TimerEvent: {}
+[2.319917] (-) TimerEvent: {}
+[2.421050] (-) TimerEvent: {}
+[2.522024] (-) TimerEvent: {}
+[2.623115] (-) TimerEvent: {}
+[2.724085] (-) TimerEvent: {}
+[2.825094] (-) TimerEvent: {}
+[2.926120] (-) TimerEvent: {}
+[3.027158] (-) TimerEvent: {}
+[3.128385] (-) TimerEvent: {}
+[3.229248] (-) TimerEvent: {}
+[3.330395] (-) TimerEvent: {}
+[3.431381] (-) TimerEvent: {}
+[3.532331] (-) TimerEvent: {}
+[3.633445] (-) TimerEvent: {}
+[3.734555] (-) TimerEvent: {}
+[3.835433] (-) TimerEvent: {}
+[3.936395] (-) TimerEvent: {}
+[4.037282] (-) TimerEvent: {}
+[4.138159] (-) TimerEvent: {}
+[4.238879] (-) TimerEvent: {}
+[4.339593] (-) TimerEvent: {}
+[4.440599] (-) TimerEvent: {}
+[4.541467] (-) TimerEvent: {}
+[4.642543] (-) TimerEvent: {}
+[4.743606] (-) TimerEvent: {}
+[4.844530] (-) TimerEvent: {}
+[4.945551] (-) TimerEvent: {}
+[5.046646] (-) TimerEvent: {}
+[5.147526] (-) TimerEvent: {}
+[5.248515] (-) TimerEvent: {}
+[5.349480] (-) TimerEvent: {}
+[5.450397] (-) TimerEvent: {}
+[5.551260] (-) TimerEvent: {}
+[5.652257] (-) TimerEvent: {}
+[5.753253] (-) TimerEvent: {}
+[5.854190] (-) TimerEvent: {}
+[5.955162] (-) TimerEvent: {}
+[6.055939] (-) TimerEvent: {}
+[6.156848] (-) TimerEvent: {}
+[6.257887] (-) TimerEvent: {}
+[6.358842] (-) TimerEvent: {}
+[6.459666] (-) TimerEvent: {}
+[6.560728] (-) TimerEvent: {}
+[6.661608] (-) TimerEvent: {}
+[6.762416] (-) TimerEvent: {}
+[6.863306] (-) TimerEvent: {}
+[6.963978] (-) TimerEvent: {}
+[7.064874] (-) TimerEvent: {}
+[7.165897] (-) TimerEvent: {}
+[7.266964] (-) TimerEvent: {}
+[7.367857] (-) TimerEvent: {}
+[7.468667] (-) TimerEvent: {}
+[7.569736] (-) TimerEvent: {}
+[7.670843] (-) TimerEvent: {}
+[7.771869] (-) TimerEvent: {}
+[7.872810] (-) TimerEvent: {}
+[7.973704] (-) TimerEvent: {}
+[8.074769] (-) TimerEvent: {}
+[8.175659] (-) TimerEvent: {}
+[8.276623] (-) TimerEvent: {}
+[8.377549] (-) TimerEvent: {}
+[8.478301] (-) TimerEvent: {}
+[8.510130] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:19:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPulbisher\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.510920] (zpackage) StderrLine: {'line': b'   19 |     rclcpp::\x1b[01;31m\x1b[KPulbisher\x1b[m\x1b[K<std_msgs::msg::Int32>::SharedPtr publisher_;\n'}
+[8.511224] (zpackage) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.511460] (zpackage) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[8.511679] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImerBase\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTimerBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.512000] (zpackage) StderrLine: {'line': b'   20 |     rclcpp::\x1b[01;31m\x1b[KImerBase\x1b[m\x1b[K::SharedPtr timer_;\n'}
+[8.512239] (zpackage) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.512460] (zpackage) StderrLine: {'line': b'      |             \x1b[32m\x1b[KTimerBase\x1b[m\x1b[K\n'}
+[8.526929] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisherNode::PublisherNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.527523] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.527850] (zpackage) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publicher<std_msg::msg::Int32>("random_numbers",10);\n'}
+[8.528281] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.528560] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[KPublisherNode\x1b[m\x1b[K\n'}
+[8.528870] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PublisherNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_publicher\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.529185] (zpackage) StderrLine: {'line': b'   15 |         publisher_ = this->\x1b[01;31m\x1b[Kcreate_publicher\x1b[m\x1b[K<std_msg::msg::Int32>("random_numbers",10);\n'}
+[8.529471] (zpackage) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.529724] (zpackage) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kcreate_publisher\x1b[m\x1b[K\n'}
+[8.529952] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.530171] (zpackage) StderrLine: {'line': b'   15 |         publisher_ = this->create_publicher<\x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::Int32>("random_numbers",10);\n'}
+[8.530393] (zpackage) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.538893] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.539429] (zpackage) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(1s, std::bind(&PublisherNode::publishRandomnumber,this));\n'}
+[8.539921] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.540321] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[8.540571] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KpublishRandomnumber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.540809] (zpackage) StderrLine: {'line': b'   16 |         timer_ = this->create_wall_timer(1s, std::bind(&PublisherNode::\x1b[01;31m\x1b[KpublishRandomnumber\x1b[m\x1b[K,this));\n'}
+[8.541031] (zpackage) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.546190] (zpackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.546948] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.547194] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.547415] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.547653] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.547918] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.548133] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.548343] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.548567] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.548775] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.548982] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[8.549200] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PublisherNode::publishRandomNumber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.549423] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.549635] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.549844] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.550051] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.550260] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.550466] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.550673] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.550887] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.551093] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.551297] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.551505] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.551832] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.552054] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.552265] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.552471] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.552674] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.552888] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.553098] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.553306] (zpackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.553511] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.553715] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.553920] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.554136] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.554340] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.554547] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.554760] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.554969] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.555275] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.555485] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.555689] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[8.556510] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.556758] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.556975] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.557196] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.557609] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[8.557896] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.560477] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.561020] (zpackage) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(*msg);\n'}
+[8.561260] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.561481] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[KPublisherNode\x1b[m\x1b[K\n'}
+[8.561952] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.562230] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.562468] (zpackage) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::init(argc, argv);\n'}
+[8.562691] (zpackage) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.569900] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:36:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.570557] (zpackage) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::shutdown();\n'}
+[8.570826] (zpackage) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.578708] (-) TimerEvent: {}
+[8.680253] (-) TimerEvent: {}
+[8.781119] (-) TimerEvent: {}
+[8.881958] (-) TimerEvent: {}
+[8.982981] (-) TimerEvent: {}
+[9.083856] (-) TimerEvent: {}
+[9.184841] (-) TimerEvent: {}
+[9.286085] (-) TimerEvent: {}
+[9.387015] (-) TimerEvent: {}
+[9.488988] (-) TimerEvent: {}
+[9.589900] (-) TimerEvent: {}
+[9.690789] (-) TimerEvent: {}
+[9.792081] (-) TimerEvent: {}
+[9.892984] (-) TimerEvent: {}
+[9.948916] (zpackage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1\n'}
+[9.950916] (zpackage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[9.951598] (zpackage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.957900] (zpackage) CommandEnded: {'returncode': 2}
+[9.993276] (-) TimerEvent: {}
+[10.094149] (-) TimerEvent: {}
+[10.195137] (-) TimerEvent: {}
+[10.218934] (zpackage) JobEnded: {'identifier': 'zpackage', 'rc': 2}
+[10.231778] (-) EventReactorShutdown: {}

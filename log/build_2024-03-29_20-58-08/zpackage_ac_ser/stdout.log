@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o[0m

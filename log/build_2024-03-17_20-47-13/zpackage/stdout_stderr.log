@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[ 50%] Built target subscriber_node
+[ 75%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher_node[0m
+[100%] Built target publisher_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zechariah/ros2_ws/install/zpackage/lib/zpackage/publisher_node
+-- Symlinking: /home/zechariah/ros2_ws/install/zpackage/lib/zpackage/subscriber_node
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/zechariah/ros2_ws/src/zpackage/launch'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

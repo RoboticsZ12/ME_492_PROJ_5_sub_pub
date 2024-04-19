@@ -1,0 +1,60 @@
+[0.050s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_client[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target Fibonacci_server[0m
+[0.283s] [ 25%] [32mBuilding CXX object CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o[0m
+[0.287s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o[0m
+[10.088s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:[m[K In member function ‘[01m[Kvoid FibonacciServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_tutorials_interfaces::action::Fibonacci> >)[m[K’:
+[10.089s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:54:60:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[10.089s]    54 |     std::thread{std::bind(&FibonacciServer::execute, this, [01;31m[K_1[m[K), goal_handle}.detach();
+[10.090s]       |                                                            [01;31m[K^~[m[K
+[10.090s]       |                                                            [32m[Kstd::placeholders::_1[m[K
+[10.090s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[10.090s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[10.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[10.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.091s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:2[m[K:
+[10.092s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[10.092s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[10.092s]       |                                  [01;36m[K^~[m[K
+[10.092s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:54:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[10.093s]    54 |     std::thread{std::bind(&FibonacciServer::execute, this, _1), goal_handle[01;31m[K}[m[K.detach();
+[10.093s]       |                                                                            [01;31m[K^[m[K
+[10.093s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[10.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[10.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.094s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/Fibonacci_server.cpp:2[m[K:
+[10.094s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[10.094s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[10.094s]       |       [01;36m[K^~~~~~[m[K
+[10.095s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.095s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[10.095s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[10.095s]       |     [01;36m[K^~~~~~[m[K
+[10.096s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[10.096s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[10.097s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[10.098s]       |     [01;36m[K^~~~~~[m[K
+[10.098s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[10.243s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.243s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:125:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_some()[m[K’
+[10.243s]   125 |         [01;31m[Krclcpp::spin_some()[m[K;
+[10.244s]       |         [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[10.244s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.244s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:10[m[K:
+[10.245s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[10.245s]    35 | [01;36m[Kspin_some[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[10.245s]       | [01;36m[K^~~~~~~~~[m[K
+[10.245s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[10.246s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)[m[K’
+[10.246s]    39 | [01;36m[Kspin_some[m[K(rclcpp::Node::SharedPtr node_ptr);
+[10.246s]       | [01;36m[K^~~~~~~~~[m[K
+[10.247s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[12.168s] gmake[2]: *** [CMakeFiles/Fibonacci_server.dir/build.make:76: CMakeFiles/Fibonacci_server.dir/src/Fibonacci_server.cpp.o] Error 1
+[12.168s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Fibonacci_server.dir/all] Error 2
+[12.168s] gmake[1]: *** Waiting for unfinished jobs....
+[12.558s] gmake[2]: *** [CMakeFiles/fibonacci_client.dir/build.make:76: CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1
+[12.558s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/fibonacci_client.dir/all] Error 2
+[12.559s] gmake: *** [Makefile:146: all] Error 2
+[12.566s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6

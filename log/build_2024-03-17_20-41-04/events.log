@@ -1,0 +1,533 @@
+[0.000000] (-) TimerEvent: {}
+[0.002282] (zpackage) JobQueued: {'identifier': 'zpackage', 'dependencies': OrderedDict()}
+[0.002951] (zpackage) JobStarted: {'identifier': 'zpackage'}
+[0.080879] (zpackage) JobProgress: {'identifier': 'zpackage', 'progress': 'cmake'}
+[0.091633] (zpackage) Command: {'cmd': ['/usr/bin/cmake', '/home/zechariah/ros2_ws/src/zpackage', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1389'), ('SYSTEMD_EXEC_PID', '1575'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:35388'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1527,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1527'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'e149afcd0ed94503b7e442a87a94e5dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WG4YK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099836] (-) TimerEvent: {}
+[0.201489] (-) TimerEvent: {}
+[0.267163] (zpackage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.301817] (-) TimerEvent: {}
+[0.402928] (-) TimerEvent: {}
+[0.503775] (-) TimerEvent: {}
+[0.605190] (-) TimerEvent: {}
+[0.706418] (-) TimerEvent: {}
+[0.776748] (zpackage) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.806746] (-) TimerEvent: {}
+[0.907624] (-) TimerEvent: {}
+[0.917160] (zpackage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.007900] (-) TimerEvent: {}
+[1.109270] (-) TimerEvent: {}
+[1.210395] (-) TimerEvent: {}
+[1.227173] (zpackage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.268607] (zpackage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.310773] (-) TimerEvent: {}
+[1.335035] (zpackage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.411065] (-) TimerEvent: {}
+[1.438780] (zpackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.511452] (-) TimerEvent: {}
+[1.557521] (zpackage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.611910] (-) TimerEvent: {}
+[1.713066] (-) TimerEvent: {}
+[1.813807] (-) TimerEvent: {}
+[1.914802] (-) TimerEvent: {}
+[1.953518] (zpackage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.981939] (zpackage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.015325] (-) TimerEvent: {}
+[2.116345] (-) TimerEvent: {}
+[2.217432] (-) TimerEvent: {}
+[2.318454] (-) TimerEvent: {}
+[2.419457] (-) TimerEvent: {}
+[2.520197] (-) TimerEvent: {}
+[2.539068] (zpackage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.620499] (-) TimerEvent: {}
+[2.645119] (zpackage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.720767] (-) TimerEvent: {}
+[2.811569] (zpackage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.821303] (-) TimerEvent: {}
+[2.880231] (zpackage) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.921701] (-) TimerEvent: {}
+[3.022586] (-) TimerEvent: {}
+[3.123582] (-) TimerEvent: {}
+[3.224721] (-) TimerEvent: {}
+[3.325462] (-) TimerEvent: {}
+[3.426291] (-) TimerEvent: {}
+[3.432324] (zpackage) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.435227] (zpackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.526599] (-) TimerEvent: {}
+[3.627400] (-) TimerEvent: {}
+[3.728153] (-) TimerEvent: {}
+[3.743580] (zpackage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.746264] (zpackage) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.828411] (-) TimerEvent: {}
+[3.929300] (-) TimerEvent: {}
+[4.030117] (-) TimerEvent: {}
+[4.130965] (-) TimerEvent: {}
+[4.232130] (-) TimerEvent: {}
+[4.333050] (-) TimerEvent: {}
+[4.434050] (-) TimerEvent: {}
+[4.534969] (-) TimerEvent: {}
+[4.635825] (-) TimerEvent: {}
+[4.736779] (-) TimerEvent: {}
+[4.754887] (zpackage) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.830758] (zpackage) StdoutLine: {'line': b'-- Generating done\n'}
+[4.837027] (-) TimerEvent: {}
+[4.845211] (zpackage) StdoutLine: {'line': b'-- Build files have been written to: /home/zechariah/ros2_ws/build/zpackage\n'}
+[4.864741] (zpackage) CommandEnded: {'returncode': 0}
+[4.867008] (zpackage) JobProgress: {'identifier': 'zpackage', 'progress': 'build'}
+[4.871216] (zpackage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zechariah/ros2_ws/build/zpackage', '--', '-j6', '-l6'], 'cwd': '/home/zechariah/ros2_ws/build/zpackage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zechariah'), ('GIO_MODULE_DIR', '/home/zechariah/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zechariah'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/155/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/zechariah/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('MANAGERPID', '1389'), ('SYSTEMD_EXEC_PID', '1575'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2246'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zechariah'), ('JOURNAL_STREAM', '8:35388'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'zechariah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zechariah-virtual-machine:@/tmp/.ICE-unix/1527,unix/zechariah-virtual-machine:/tmp/.ICE-unix/1527'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('INVOCATION_ID', 'e149afcd0ed94503b7e442a87a94e5dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WG4YK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4fc67a2f9e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zechariah/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zechariah/ros2_ws/build/zpackage'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/zechariah/snap/code/155/.local/share:/home/zechariah/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/home/zechariah/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.937270] (-) TimerEvent: {}
+[5.038202] (-) TimerEvent: {}
+[5.083123] (zpackage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[5.090445] (zpackage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[5.138791] (-) TimerEvent: {}
+[5.239762] (-) TimerEvent: {}
+[5.340843] (-) TimerEvent: {}
+[5.441682] (-) TimerEvent: {}
+[5.542633] (-) TimerEvent: {}
+[5.643589] (-) TimerEvent: {}
+[5.745341] (-) TimerEvent: {}
+[5.846324] (-) TimerEvent: {}
+[5.947314] (-) TimerEvent: {}
+[6.049193] (-) TimerEvent: {}
+[6.151587] (-) TimerEvent: {}
+[6.252551] (-) TimerEvent: {}
+[6.353304] (-) TimerEvent: {}
+[6.454116] (-) TimerEvent: {}
+[6.554996] (-) TimerEvent: {}
+[6.655865] (-) TimerEvent: {}
+[6.756937] (-) TimerEvent: {}
+[6.857733] (-) TimerEvent: {}
+[6.958589] (-) TimerEvent: {}
+[7.059467] (-) TimerEvent: {}
+[7.160551] (-) TimerEvent: {}
+[7.261409] (-) TimerEvent: {}
+[7.362501] (-) TimerEvent: {}
+[7.463491] (-) TimerEvent: {}
+[7.564563] (-) TimerEvent: {}
+[7.665661] (-) TimerEvent: {}
+[7.766459] (-) TimerEvent: {}
+[7.867350] (-) TimerEvent: {}
+[7.986635] (-) TimerEvent: {}
+[8.087360] (-) TimerEvent: {}
+[8.188471] (-) TimerEvent: {}
+[8.289558] (-) TimerEvent: {}
+[8.390603] (-) TimerEvent: {}
+[8.491825] (-) TimerEvent: {}
+[8.592798] (-) TimerEvent: {}
+[8.695169] (-) TimerEvent: {}
+[8.796084] (-) TimerEvent: {}
+[8.897218] (-) TimerEvent: {}
+[8.997919] (-) TimerEvent: {}
+[9.098940] (-) TimerEvent: {}
+[9.200266] (-) TimerEvent: {}
+[9.301561] (-) TimerEvent: {}
+[9.402399] (-) TimerEvent: {}
+[9.503243] (-) TimerEvent: {}
+[9.604752] (-) TimerEvent: {}
+[9.706094] (-) TimerEvent: {}
+[9.806931] (-) TimerEvent: {}
+[9.909491] (-) TimerEvent: {}
+[10.010464] (-) TimerEvent: {}
+[10.111560] (-) TimerEvent: {}
+[10.212874] (-) TimerEvent: {}
+[10.314527] (-) TimerEvent: {}
+[10.415619] (-) TimerEvent: {}
+[10.516511] (-) TimerEvent: {}
+[10.617516] (-) TimerEvent: {}
+[10.718383] (-) TimerEvent: {}
+[10.819326] (-) TimerEvent: {}
+[10.920290] (-) TimerEvent: {}
+[11.021354] (-) TimerEvent: {}
+[11.122369] (-) TimerEvent: {}
+[11.223257] (-) TimerEvent: {}
+[11.324236] (-) TimerEvent: {}
+[11.425674] (-) TimerEvent: {}
+[11.528005] (-) TimerEvent: {}
+[11.629116] (-) TimerEvent: {}
+[11.729989] (-) TimerEvent: {}
+[11.830920] (-) TimerEvent: {}
+[11.931792] (-) TimerEvent: {}
+[12.032800] (-) TimerEvent: {}
+[12.133722] (-) TimerEvent: {}
+[12.234813] (-) TimerEvent: {}
+[12.335793] (-) TimerEvent: {}
+[12.437494] (-) TimerEvent: {}
+[12.538440] (-) TimerEvent: {}
+[12.639173] (-) TimerEvent: {}
+[12.739889] (-) TimerEvent: {}
+[12.840813] (-) TimerEvent: {}
+[12.941611] (-) TimerEvent: {}
+[13.042548] (-) TimerEvent: {}
+[13.143378] (-) TimerEvent: {}
+[13.244351] (-) TimerEvent: {}
+[13.345253] (-) TimerEvent: {}
+[13.446147] (-) TimerEvent: {}
+[13.547066] (-) TimerEvent: {}
+[13.647849] (-) TimerEvent: {}
+[13.748820] (-) TimerEvent: {}
+[13.849576] (-) TimerEvent: {}
+[13.950349] (-) TimerEvent: {}
+[14.051178] (-) TimerEvent: {}
+[14.152102] (-) TimerEvent: {}
+[14.252850] (-) TimerEvent: {}
+[14.353639] (-) TimerEvent: {}
+[14.454635] (-) TimerEvent: {}
+[14.555538] (-) TimerEvent: {}
+[14.656560] (-) TimerEvent: {}
+[14.757533] (-) TimerEvent: {}
+[14.858668] (-) TimerEvent: {}
+[14.959726] (-) TimerEvent: {}
+[15.060814] (-) TimerEvent: {}
+[15.161780] (-) TimerEvent: {}
+[15.262594] (-) TimerEvent: {}
+[15.363489] (-) TimerEvent: {}
+[15.464606] (-) TimerEvent: {}
+[15.565584] (-) TimerEvent: {}
+[15.666535] (-) TimerEvent: {}
+[15.767296] (-) TimerEvent: {}
+[15.868085] (-) TimerEvent: {}
+[15.969050] (-) TimerEvent: {}
+[16.069966] (-) TimerEvent: {}
+[16.170911] (-) TimerEvent: {}
+[16.271802] (-) TimerEvent: {}
+[16.373143] (-) TimerEvent: {}
+[16.476204] (-) TimerEvent: {}
+[16.577121] (-) TimerEvent: {}
+[16.678059] (-) TimerEvent: {}
+[16.778909] (-) TimerEvent: {}
+[16.879696] (-) TimerEvent: {}
+[16.980554] (-) TimerEvent: {}
+[17.081333] (-) TimerEvent: {}
+[17.182223] (-) TimerEvent: {}
+[17.282974] (-) TimerEvent: {}
+[17.383747] (-) TimerEvent: {}
+[17.484803] (-) TimerEvent: {}
+[17.585743] (-) TimerEvent: {}
+[17.686621] (-) TimerEvent: {}
+[17.787294] (-) TimerEvent: {}
+[17.888175] (-) TimerEvent: {}
+[17.989051] (-) TimerEvent: {}
+[18.089848] (-) TimerEvent: {}
+[18.190663] (-) TimerEvent: {}
+[18.291333] (-) TimerEvent: {}
+[18.392149] (-) TimerEvent: {}
+[18.492970] (-) TimerEvent: {}
+[18.593754] (-) TimerEvent: {}
+[18.694517] (-) TimerEvent: {}
+[18.795516] (-) TimerEvent: {}
+[18.896169] (-) TimerEvent: {}
+[18.997034] (-) TimerEvent: {}
+[19.097782] (-) TimerEvent: {}
+[19.198672] (-) TimerEvent: {}
+[19.299459] (-) TimerEvent: {}
+[19.400204] (-) TimerEvent: {}
+[19.501115] (-) TimerEvent: {}
+[19.602002] (-) TimerEvent: {}
+[19.702779] (-) TimerEvent: {}
+[19.803534] (-) TimerEvent: {}
+[19.904375] (-) TimerEvent: {}
+[20.005243] (-) TimerEvent: {}
+[20.106070] (-) TimerEvent: {}
+[20.206930] (-) TimerEvent: {}
+[20.307841] (-) TimerEvent: {}
+[20.409195] (-) TimerEvent: {}
+[20.510172] (-) TimerEvent: {}
+[20.612129] (-) TimerEvent: {}
+[20.713487] (-) TimerEvent: {}
+[20.814365] (-) TimerEvent: {}
+[20.867110] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:19:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPulbisher\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.867736] (zpackage) StderrLine: {'line': b'   19 |     rclcpp::\x1b[01;31m\x1b[KPulbisher\x1b[m\x1b[K<std_msgs::msg::Int32>::SharedPtr publisher_;\n'}
+[20.868082] (zpackage) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.868346] (zpackage) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[20.872294] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImerBase\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTimerBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.872848] (zpackage) StderrLine: {'line': b'   20 |     rclcpp::\x1b[01;31m\x1b[KImerBase\x1b[m\x1b[K::SharedPtr timer_;\n'}
+[20.873358] (zpackage) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.873789] (zpackage) StderrLine: {'line': b'      |             \x1b[32m\x1b[KTimerBase\x1b[m\x1b[K\n'}
+[20.900214] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisherNode::PublisherNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.900725] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.901048] (zpackage) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publicher<std_msg::msg::Int32>("random_numbers",10);\n'}
+[20.901377] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.901732] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[KPublisherNode\x1b[m\x1b[K\n'}
+[20.904537] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PublisherNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_publicher\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.905147] (zpackage) StderrLine: {'line': b'   15 |         publisher_ = this->\x1b[01;31m\x1b[Kcreate_publicher\x1b[m\x1b[K<std_msg::msg::Int32>("random_numbers",10);\n'}
+[20.905484] (zpackage) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.905837] (zpackage) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kcreate_publisher\x1b[m\x1b[K\n'}
+[20.906131] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.906428] (zpackage) StderrLine: {'line': b'   15 |         publisher_ = this->create_publicher<\x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::Int32>("random_numbers",10);\n'}
+[20.906727] (zpackage) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.915435] (-) TimerEvent: {}
+[20.916913] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.917895] (zpackage) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(1s, std::bind(&PublisherNode::publishRandomnumber,this));\n'}
+[20.918225] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[20.918532] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[20.918826] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KpublishRandomnumber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.919123] (zpackage) StderrLine: {'line': b'   16 |         timer_ = this->create_wall_timer(1s, std::bind(&PublisherNode::\x1b[01;31m\x1b[KpublishRandomnumber\x1b[m\x1b[K,this));\n'}
+[20.919412] (zpackage) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.924554] (zpackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.925196] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[20.925588] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.926033] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.926298] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.926601] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.927206] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.928280] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.928697] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.929015] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.929433] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[20.929827] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PublisherNode::publishRandomNumber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.930418] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.930803] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.932565] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.933025] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.933408] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.933679] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.933923] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.934203] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.934479] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.934754] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.935003] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.935242] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.935469] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.935710] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.937798] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.938182] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.938810] (zpackage) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(->get_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.939167] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.939478] (zpackage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[20.939773] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.945170] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[20.946076] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.946610] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.946939] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.947198] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.947471] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.947784] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.948106] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.948372] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.949239] (zpackage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[20.949541] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.949821] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.950060] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.950281] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.950504] (zpackage) StderrLine: {'line': b'   26 |         RCLCPP_INFO(\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger(), "Publishing random number: %d", msg->data);\n'}
+[20.950724] (zpackage) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[20.950947] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisherNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.951201] (zpackage) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(*msg);\n'}
+[20.951430] (zpackage) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.951649] (zpackage) StderrLine: {'line': b'      |         \x1b[32m\x1b[KPublisherNode\x1b[m\x1b[K\n'}
+[20.951866] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.952160] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.952392] (zpackage) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::init(argc, argv);\n'}
+[20.952613] (zpackage) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[20.952849] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:34:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmaek_shared\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.953085] (zpackage) StderrLine: {'line': b'   34 |     auto node = std::\x1b[01;31m\x1b[Kmaek_shared\x1b[m\x1b[K<PublisherNode>();\n'}
+[20.953333] (zpackage) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.953556] (zpackage) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kmake_shared\x1b[m\x1b[K\n'}
+[20.953773] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:34:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.953996] (zpackage) StderrLine: {'line': b'   34 |     auto node = std::maek_shared<PublisherNode\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[20.954217] (zpackage) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.954467] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:34:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[20.954701] (zpackage) StderrLine: {'line': b'   34 |     auto node = std::maek_shared<PublisherNode>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[20.954923] (zpackage) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[20.955139] (zpackage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:36:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[20.955359] (zpackage) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::shutdown();\n'}
+[20.955589] (zpackage) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.015823] (-) TimerEvent: {}
+[21.116967] (-) TimerEvent: {}
+[21.217981] (-) TimerEvent: {}
+[21.318912] (-) TimerEvent: {}
+[21.420056] (-) TimerEvent: {}
+[21.520929] (-) TimerEvent: {}
+[21.621709] (-) TimerEvent: {}
+[21.722513] (-) TimerEvent: {}
+[21.823456] (-) TimerEvent: {}
+[21.924348] (-) TimerEvent: {}
+[22.025310] (-) TimerEvent: {}
+[22.126247] (-) TimerEvent: {}
+[22.227090] (-) TimerEvent: {}
+[22.327873] (-) TimerEvent: {}
+[22.428906] (-) TimerEvent: {}
+[22.467573] (zpackage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1\n'}
+[22.468660] (zpackage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[22.469035] (zpackage) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[22.529145] (-) TimerEvent: {}
+[22.630030] (-) TimerEvent: {}
+[22.730868] (-) TimerEvent: {}
+[22.831910] (-) TimerEvent: {}
+[22.932892] (-) TimerEvent: {}
+[23.034102] (-) TimerEvent: {}
+[23.134993] (-) TimerEvent: {}
+[23.235873] (-) TimerEvent: {}
+[23.336872] (-) TimerEvent: {}
+[23.437884] (-) TimerEvent: {}
+[23.538838] (-) TimerEvent: {}
+[23.639651] (-) TimerEvent: {}
+[23.740680] (-) TimerEvent: {}
+[23.841587] (-) TimerEvent: {}
+[23.942578] (-) TimerEvent: {}
+[24.043454] (-) TimerEvent: {}
+[24.144730] (-) TimerEvent: {}
+[24.245515] (-) TimerEvent: {}
+[24.346394] (-) TimerEvent: {}
+[24.447471] (-) TimerEvent: {}
+[24.548506] (-) TimerEvent: {}
+[24.649417] (-) TimerEvent: {}
+[24.750413] (-) TimerEvent: {}
+[24.851370] (-) TimerEvent: {}
+[24.952571] (-) TimerEvent: {}
+[25.053664] (-) TimerEvent: {}
+[25.154749] (-) TimerEvent: {}
+[25.255664] (-) TimerEvent: {}
+[25.356879] (-) TimerEvent: {}
+[25.457922] (-) TimerEvent: {}
+[25.558785] (-) TimerEvent: {}
+[25.659714] (-) TimerEvent: {}
+[25.760937] (-) TimerEvent: {}
+[25.861861] (-) TimerEvent: {}
+[25.962776] (-) TimerEvent: {}
+[26.063638] (-) TimerEvent: {}
+[26.164679] (-) TimerEvent: {}
+[26.265644] (-) TimerEvent: {}
+[26.366632] (-) TimerEvent: {}
+[26.467634] (-) TimerEvent: {}
+[26.568684] (-) TimerEvent: {}
+[26.669665] (-) TimerEvent: {}
+[26.770652] (-) TimerEvent: {}
+[26.871646] (-) TimerEvent: {}
+[26.972779] (-) TimerEvent: {}
+[27.073598] (-) TimerEvent: {}
+[27.174529] (-) TimerEvent: {}
+[27.275393] (-) TimerEvent: {}
+[27.376414] (-) TimerEvent: {}
+[27.477413] (-) TimerEvent: {}
+[27.578398] (-) TimerEvent: {}
+[27.679244] (-) TimerEvent: {}
+[27.780134] (-) TimerEvent: {}
+[27.881109] (-) TimerEvent: {}
+[27.982068] (-) TimerEvent: {}
+[28.083093] (-) TimerEvent: {}
+[28.184130] (-) TimerEvent: {}
+[28.284963] (-) TimerEvent: {}
+[28.385915] (-) TimerEvent: {}
+[28.486892] (-) TimerEvent: {}
+[28.587756] (-) TimerEvent: {}
+[28.688935] (-) TimerEvent: {}
+[28.789843] (-) TimerEvent: {}
+[28.890775] (-) TimerEvent: {}
+[28.991755] (-) TimerEvent: {}
+[29.092910] (-) TimerEvent: {}
+[29.193831] (-) TimerEvent: {}
+[29.294755] (-) TimerEvent: {}
+[29.395608] (-) TimerEvent: {}
+[29.496711] (-) TimerEvent: {}
+[29.598130] (-) TimerEvent: {}
+[29.698986] (-) TimerEvent: {}
+[29.800086] (-) TimerEvent: {}
+[29.900993] (-) TimerEvent: {}
+[30.001927] (-) TimerEvent: {}
+[30.102913] (-) TimerEvent: {}
+[30.203888] (-) TimerEvent: {}
+[30.304941] (-) TimerEvent: {}
+[30.405750] (-) TimerEvent: {}
+[30.506488] (-) TimerEvent: {}
+[30.607297] (-) TimerEvent: {}
+[30.708181] (-) TimerEvent: {}
+[30.809096] (-) TimerEvent: {}
+[30.910244] (-) TimerEvent: {}
+[31.011142] (-) TimerEvent: {}
+[31.112226] (-) TimerEvent: {}
+[31.213021] (-) TimerEvent: {}
+[31.314023] (-) TimerEvent: {}
+[31.414994] (-) TimerEvent: {}
+[31.516073] (-) TimerEvent: {}
+[31.617238] (-) TimerEvent: {}
+[31.718133] (-) TimerEvent: {}
+[31.819198] (-) TimerEvent: {}
+[31.920269] (-) TimerEvent: {}
+[32.021026] (-) TimerEvent: {}
+[32.122099] (-) TimerEvent: {}
+[32.223034] (-) TimerEvent: {}
+[32.324158] (-) TimerEvent: {}
+[32.424979] (-) TimerEvent: {}
+[32.525931] (-) TimerEvent: {}
+[32.626920] (-) TimerEvent: {}
+[32.727734] (-) TimerEvent: {}
+[32.828704] (-) TimerEvent: {}
+[32.929543] (-) TimerEvent: {}
+[33.030459] (-) TimerEvent: {}
+[33.131283] (-) TimerEvent: {}
+[33.232485] (-) TimerEvent: {}
+[33.333542] (-) TimerEvent: {}
+[33.434567] (-) TimerEvent: {}
+[33.535446] (-) TimerEvent: {}
+[33.636468] (-) TimerEvent: {}
+[33.737362] (-) TimerEvent: {}
+[33.838210] (-) TimerEvent: {}
+[33.939135] (-) TimerEvent: {}
+[34.040119] (-) TimerEvent: {}
+[34.141029] (-) TimerEvent: {}
+[34.241867] (-) TimerEvent: {}
+[34.342823] (-) TimerEvent: {}
+[34.444063] (-) TimerEvent: {}
+[34.544881] (-) TimerEvent: {}
+[34.645751] (-) TimerEvent: {}
+[34.746589] (-) TimerEvent: {}
+[34.847474] (-) TimerEvent: {}
+[34.948508] (-) TimerEvent: {}
+[35.049399] (-) TimerEvent: {}
+[35.150342] (-) TimerEvent: {}
+[35.251206] (-) TimerEvent: {}
+[35.352175] (-) TimerEvent: {}
+[35.453059] (-) TimerEvent: {}
+[35.554013] (-) TimerEvent: {}
+[35.654937] (-) TimerEvent: {}
+[35.755983] (-) TimerEvent: {}
+[35.856925] (-) TimerEvent: {}
+[35.957907] (-) TimerEvent: {}
+[36.058732] (-) TimerEvent: {}
+[36.159475] (-) TimerEvent: {}
+[36.260268] (-) TimerEvent: {}
+[36.361043] (-) TimerEvent: {}
+[36.461972] (-) TimerEvent: {}
+[36.563026] (-) TimerEvent: {}
+[36.663918] (-) TimerEvent: {}
+[36.764774] (-) TimerEvent: {}
+[36.865688] (-) TimerEvent: {}
+[36.966568] (-) TimerEvent: {}
+[37.067459] (-) TimerEvent: {}
+[37.168299] (-) TimerEvent: {}
+[37.269201] (-) TimerEvent: {}
+[37.370064] (-) TimerEvent: {}
+[37.470971] (-) TimerEvent: {}
+[37.571834] (-) TimerEvent: {}
+[37.672920] (-) TimerEvent: {}
+[37.773950] (-) TimerEvent: {}
+[37.874733] (-) TimerEvent: {}
+[37.975842] (-) TimerEvent: {}
+[38.076925] (-) TimerEvent: {}
+[38.177823] (-) TimerEvent: {}
+[38.278628] (-) TimerEvent: {}
+[38.299518] (zpackage) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[38.378921] (-) TimerEvent: {}
+[38.479743] (-) TimerEvent: {}
+[38.580740] (-) TimerEvent: {}
+[38.681680] (-) TimerEvent: {}
+[38.782638] (-) TimerEvent: {}
+[38.883637] (-) TimerEvent: {}
+[38.984499] (-) TimerEvent: {}
+[39.085262] (-) TimerEvent: {}
+[39.186234] (-) TimerEvent: {}
+[39.287236] (-) TimerEvent: {}
+[39.388235] (-) TimerEvent: {}
+[39.489017] (-) TimerEvent: {}
+[39.590014] (-) TimerEvent: {}
+[39.690837] (-) TimerEvent: {}
+[39.791626] (-) TimerEvent: {}
+[39.832457] (zpackage) StdoutLine: {'line': b'[ 75%] Built target subscriber_node\n'}
+[39.835943] (zpackage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.841662] (zpackage) CommandEnded: {'returncode': 2}
+[39.892077] (-) TimerEvent: {}
+[39.993077] (-) TimerEvent: {}
+[40.094032] (-) TimerEvent: {}
+[40.169485] (zpackage) JobEnded: {'identifier': 'zpackage', 'rc': 2}
+[40.182578] (-) EventReactorShutdown: {}

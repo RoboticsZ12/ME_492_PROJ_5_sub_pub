@@ -1,0 +1,29 @@
+[0.113s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target Fibonacci_server[0m
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_client[0m
+[0.439s] [ 25%] [32m[1mLinking CXX executable Fibonacci_server[0m
+[0.482s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o[0m
+[0.745s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.746s] (.text+0x1b): undefined reference to `main'
+[0.747s] collect2: error: ld returned 1 exit status
+[0.750s] gmake[2]: *** [CMakeFiles/Fibonacci_server.dir/build.make:188: Fibonacci_server] Error 1
+[0.751s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Fibonacci_server.dir/all] Error 2
+[0.751s] gmake[1]: *** Waiting for unfinished jobs....
+[17.472s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[17.473s] [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:132:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_some()[m[K’
+[17.473s]   132 | [01;31m[Krclcpp::spin_some()[m[K;
+[17.473s]       | [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[17.474s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.474s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage_ac_ser/src/fibonacci_client.cpp:11[m[K:
+[17.474s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[17.475s]    35 | [01;36m[Kspin_some[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[17.475s]       | [01;36m[K^~~~~~~~~[m[K
+[17.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[17.475s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)[m[K’
+[17.476s]    39 | [01;36m[Kspin_some[m[K(rclcpp::Node::SharedPtr node_ptr);
+[17.476s]       | [01;36m[K^~~~~~~~~[m[K
+[17.476s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[21.923s] gmake[2]: *** [CMakeFiles/fibonacci_client.dir/build.make:76: CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o] Error 1
+[21.925s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/fibonacci_client.dir/all] Error 2
+[21.926s] gmake: *** [Makefile:146: all] Error 2
+[21.935s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage_ac_ser -- -j6 -l6

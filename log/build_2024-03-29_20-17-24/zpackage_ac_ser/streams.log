@@ -1,0 +1,56 @@
+[0.097s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage_ac_ser -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage_ac_ser
+[0.751s] -- The C compiler identification is GNU 11.4.0
+[1.151s] -- The CXX compiler identification is GNU 11.4.0
+[1.234s] -- Detecting C compiler ABI info
+[1.562s] -- Detecting C compiler ABI info - done
+[1.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.583s] -- Detecting C compile features
+[1.586s] -- Detecting C compile features - done
+[1.602s] -- Detecting CXX compiler ABI info
+[1.955s] -- Detecting CXX compiler ABI info - done
+[1.977s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.978s] -- Detecting CXX compile features
+[1.979s] -- Detecting CXX compile features - done
+[2.054s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.615s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.890s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[2.890s]   add_custom_target called with target name containing a "<".  This character
+[2.891s]   is not allowed.
+[2.891s] Call Stack (most recent call first):
+[2.891s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.892s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.892s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.892s]   CMakeLists.txt:37 (find_package)
+[2.892s] 
+[2.893s] [0m
+[3.082s] -- Found action_tutorials_interfaces: 0.20.3 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)
+[3.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.406s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.468s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.382s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.852s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.880s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.550s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.774s] -- Looking for pthread.h
+[6.217s] -- Looking for pthread.h - found
+[6.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.619s] -- Found Threads: TRUE  
+[7.269s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.427s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[8.013s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[8.014s]   ament_package_xml() package name 'zpackage_ac_ser' in '/package.xml' does
+[8.014s]   not match current PROJECT_NAME '<package_name>'.  You must call project()
+[8.015s]   with the same package name before.
+[8.015s] Call Stack (most recent call first):
+[8.015s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[8.016s]   CMakeLists.txt:63 (ament_package)
+[8.016s] 
+[8.016s] [0m
+[8.017s] -- Configuring incomplete, errors occurred!
+[8.017s] See also "/home/zechariah/ros2_ws/build/zpackage_ac_ser/CMakeFiles/CMakeOutput.log".
+[8.048s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage_ac_ser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zechariah/ros2_ws/src/zpackage_ac_ser -DCMAKE_INSTALL_PREFIX=/home/zechariah/ros2_ws/install/zpackage_ac_ser

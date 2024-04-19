@@ -1,0 +1,95 @@
+[0.063s] Invoking command in '/home/zechariah/ros2_ws/build/zpackage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.394s] [ 50%] Built target subscriber_node
+[0.412s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o[0m
+[8.508s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPulbisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KPublisher[m[K’?
+[8.509s]    19 |     rclcpp::[01;31m[KPulbisher[m[K<std_msgs::msg::Int32>::SharedPtr publisher_;
+[8.509s]       |             [01;31m[K^~~~~~~~~[m[K
+[8.509s]       |             [32m[KPublisher[m[K
+[8.510s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[KImerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+[8.510s]    20 |     rclcpp::[01;31m[KImerBase[m[K::SharedPtr timer_;
+[8.510s]       |             [01;31m[K^~~~~~~~[m[K
+[8.510s]       |             [32m[KTimerBase[m[K
+[8.525s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:[m[K In constructor ‘[01m[KPublisherNode::PublisherNode()[m[K’:
+[8.526s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisherNode[m[K’?
+[8.526s]    15 |         [01;31m[Kpublisher_[m[K = this->create_publicher<std_msg::msg::Int32>("random_numbers",10);
+[8.526s]       |         [01;31m[K^~~~~~~~~~[m[K
+[8.527s]       |         [32m[KPublisherNode[m[K
+[8.527s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PublisherNode[m[K’ has no member named ‘[01m[Kcreate_publicher[m[K’; did you mean ‘[01m[Kcreate_publisher[m[K’?
+[8.527s]    15 |         publisher_ = this->[01;31m[Kcreate_publicher[m[K<std_msg::msg::Int32>("random_numbers",10);
+[8.527s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.528s]       |                            [32m[Kcreate_publisher[m[K
+[8.528s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:15:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ has not been declared
+[8.528s]    15 |         publisher_ = this->create_publicher<[01;31m[Kstd_msg[m[K::msg::Int32>("random_numbers",10);
+[8.528s]       |                                             [01;31m[K^~~~~~~[m[K
+[8.537s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[8.537s]    16 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(1s, std::bind(&PublisherNode::publishRandomnumber,this));
+[8.538s]       |         [01;31m[K^~~~~~[m[K
+[8.538s]       |         [32m[Ktimer_t[m[K
+[8.539s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:16:72:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishRandomnumber[m[K’ is not a member of ‘[01m[KPublisherNode[m[K’
+[8.539s]    16 |         timer_ = this->create_wall_timer(1s, std::bind(&PublisherNode::[01;31m[KpublishRandomnumber[m[K,this));
+[8.539s]       |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.545s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.545s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.545s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.545s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.546s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.547s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.547s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1[m[K:
+[8.547s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid PublisherNode::publishRandomNumber()[m[K’:
+[8.547s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[8.548s]    26 |         RCLCPP_INFO([01;31m[K->[m[Kget_logger(), "Publishing random number: %d", msg->data);
+[8.548s]       |                     [01;31m[K^~[m[K
+[8.548s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.548s]    26 |         [01;31m[KRCLCPP_INFO[m[K(->get_logger(), "Publishing random number: %d", msg->data);
+[8.548s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.549s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.549s]    26 |         [01;31m[KRCLCPP_INFO[m[K(->get_logger(), "Publishing random number: %d", msg->data);
+[8.549s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.549s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.550s]    26 |         [01;31m[KRCLCPP_INFO[m[K(->get_logger(), "Publishing random number: %d", msg->data);
+[8.550s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.550s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.550s]    26 |         [01;31m[KRCLCPP_INFO[m[K(->get_logger(), "Publishing random number: %d", msg->data);
+[8.550s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.551s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.551s]    26 |         [01;31m[KRCLCPP_INFO[m[K(->get_logger(), "Publishing random number: %d", msg->data);
+[8.551s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.551s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.551s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.552s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.554s]                  from [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:1[m[K:
+[8.554s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[8.555s]    26 |         RCLCPP_INFO([01;31m[K->[m[Kget_logger(), "Publishing random number: %d", msg->data);
+[8.555s]       |                     [01;31m[K^~[m[K
+[8.555s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:26:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[8.556s]    26 |         RCLCPP_INFO([01;31m[K->[m[Kget_logger(), "Publishing random number: %d", msg->data);
+[8.556s]       |                     [01;31m[K^~[m[K
+[8.559s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisherNode[m[K’?
+[8.559s]    27 |         [01;31m[Kpublisher_[m[K->publish(*msg);
+[8.559s]       |         [01;31m[K^~~~~~~~~~[m[K
+[8.560s]       |         [32m[KPublisherNode[m[K
+[8.560s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.560s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+[8.560s]    33 |     [01;31m[Krclpp[m[K::init(argc, argv);
+[8.561s]       |     [01;31m[K^~~~~[m[K
+[8.568s] [01m[K/home/zechariah/ros2_ws/src/zpackage/src/publisher.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpp[m[K’ has not been declared
+[8.569s]    36 |     [01;31m[Krclpp[m[K::shutdown();
+[8.569s]       |     [01;31m[K^~~~~[m[K
+[9.948s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher.cpp.o] Error 1
+[9.949s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+[9.950s] gmake: *** [Makefile:146: all] Error 2
+[9.957s] Invoked command in '/home/zechariah/ros2_ws/build/zpackage' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zechariah/ros2_ws/build/zpackage -- -j6 -l6
